@@ -26,12 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # EMAIL_HOST_USER=EMAIL_HOST_USER
 # EMAIL_HOST_PASSWORD=EMAIL_HOST_PASSWORD
 # EMAIL_PORT=EMAIL_PORT
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend' 
-EMAIL_HOST = 'smtp.your-host.com' 
-EMAIL_USE_TLS = True 
-EMAIL_PORT = 587 
-EMAIL_HOST_USER = 'mahajananvita3@gmail.com' 
-EMAIL_HOST_PASSWORD = 'Chotabheem03#'
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -41,9 +36,9 @@ EMAIL_HOST_PASSWORD = 'Chotabheem03#'
 SECRET_KEY = 'django-insecure-l59q)h*o5jt=^qax28t548h(pquke06u*-tdx9osx+g7w^*^tl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','ignitecarservices.herokuapp.com']
 
 
 # Application definition
